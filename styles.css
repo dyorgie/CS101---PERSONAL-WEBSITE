@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;800&display=swap');
+/* color pallete 
+    main bg: 182747
+    font color: D8D8D8
+    headings: 647E68
+    accent: 562B08
+*/
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    overflow: hidden;
 }
 
-#landingpageBG{
-    width: 100%;
-    height: 100%;
+.landingpageBG{
+    background-size: 100%;
 }
 
 #landingPageOpening {
@@ -17,12 +23,26 @@ body {
 }
 
 #landingPageButton {
-
+    text-decoration: none;
+    color: white;
 }
 
 .landingPageText {
+    width: 100%;
     position: absolute;
-    text-align: center;
     top: 50%;
-    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.landingPageButtonBorder {
+    width: 20%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    left: 50%;
+    transform: translate(187%, 0%);
 }
