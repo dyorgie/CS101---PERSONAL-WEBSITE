@@ -25,6 +25,14 @@ body {
 #landingPageButton {
     text-decoration: none;
     color: white;
+    width: 20%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    left: 50%;
+    transform: translate(187%, 0%);
+    transition: 0.6s ease;
 }
 
 .landingPageText {
@@ -37,12 +45,8 @@ body {
     padding: 0px 30px;
 }
 
-.landingPageButtonBorder {
-    width: 20%;
-    border-width: 3px;
-    border-color: white;
-    border-style: solid;
-    padding: 5px;
-    left: 50%;
-    transform: translate(187%, 0%);
+
+#landingPageButton:hover {
+    color: black;
+    background-color: white;
 }
