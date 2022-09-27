@@ -50,3 +50,17 @@ body {
     color: black;
     background-color: white;
 }
+
+/* ABOUT ME */
+
+#body_aboutme {
+    background-color: #182747;
+}
+
+#heading_aboutme {
+    color: #D8D8D8;
+}
+
+#intro_aboutme {
+    color: #D8D8D8;
+}
