@@ -6,7 +6,7 @@
     accent: 562B08
 */
 
-#index_body {
+#index {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     box-sizing: border-box;
@@ -51,34 +51,51 @@
     background-color: white;
 }
 
+.navbar {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #D8D8D8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #647E68;
+    transition: .3s;
+}
+
 /* ABOUT ME */
 
 #body_aboutme {
-    background-color: #182747;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-}
-
-#body_aboutme h3, p{
-    color: #D8D8D8;
-}
-
-#body_aboutme h2 {
-    color: #647E68;
+    background-color: #182747;
 }
 
 #heading_aboutme {
-    color: #647E68
-}
-
-#intro_aboutme {
     color: #D8D8D8;
-    position: absolute;
+    font-size: 50px;
 }
 
 #mepicture_aboutme {
-    width: 25%;
-    height: 25%;
+    position: absolute;
+    height: 55%;
 }
