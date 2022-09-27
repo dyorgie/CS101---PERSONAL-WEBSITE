@@ -6,7 +6,7 @@
     accent: 562B08
 */
 
-body {
+#index_body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     box-sizing: border-box;
@@ -55,12 +55,30 @@ body {
 
 #body_aboutme {
     background-color: #182747;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+#body_aboutme h3, p{
+    color: #D8D8D8;
+}
+
+#body_aboutme h2 {
+    color: #647E68;
 }
 
 #heading_aboutme {
-    color: #D8D8D8;
+    color: #647E68
 }
 
 #intro_aboutme {
     color: #D8D8D8;
+    position: absolute;
+}
+
+#mepicture_aboutme {
+    width: 25%;
+    height: 25%;
 }
