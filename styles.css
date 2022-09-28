@@ -90,6 +90,17 @@ nav ul li a:hover {
     background-color: #182747;
 }
 
+#body_aboutme p {
+    color: white;
+    position: absolute;
+    word-wrap: break-word;
+    left: 1000px;
+}
+
+#body_aboutme h1 {
+    color: white;
+}
+
 #heading_aboutme {
     color: #D8D8D8;
     font-size: 50px;
@@ -97,5 +108,15 @@ nav ul li a:hover {
 
 #mepicture_aboutme {
     position: absolute;
-    height: 55%;
+    height: 45%;
+    border: 10px solid #562B08;
+    left: 450px;
+}
+
+#education_aboutme {
+
+}
+
+#techstack_aboutme {
+    
 }
