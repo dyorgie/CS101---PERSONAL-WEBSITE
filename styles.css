@@ -88,6 +88,7 @@ nav ul li a:hover {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     background-color: #182747;
+    overflow: hidden;
 }
 
 #body_aboutme p {
@@ -95,10 +96,23 @@ nav ul li a:hover {
     position: absolute;
     word-wrap: break-word;
     left: 1000px;
+    font-size: 20px;
 }
 
 #body_aboutme h1 {
     color: white;
+}
+
+.techstackimages {
+    position: absolute;
+    top: 750px;
+    left: 190px;
+}
+
+.educationimages {
+    position: absolute;
+    top: 750px;
+    left: 1000px;
 }
 
 #heading_aboutme {
@@ -113,10 +127,18 @@ nav ul li a:hover {
     left: 450px;
 }
 
-#education_aboutme {
-
-}
 
 #techstack_aboutme {
-    
+    position: relative;
+    font-size: 40px;
+    left: 190px;
+    top: 500px;
 }
+
+#education_aboutme {
+    position: relative;
+    font-size: 40px;
+    left: 1000px;
+    top: 420px;
+}
+
