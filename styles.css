@@ -91,12 +91,28 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
+#body_gallery {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #182747;
+}
+
 #body_aboutme p {
     color: white;
     position: absolute;
     word-wrap: break-word;
     left: 1000px;
     font-size: 20px;
+}
+
+#body_contactme {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #182747;
 }
 
 #body_aboutme h1 {
