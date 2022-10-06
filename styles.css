@@ -168,8 +168,37 @@ nav ul li a:hover {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     background-color: #182747;
+    overflow-x: hidden;
 }
 
 #body_contactme p, h3 {
     color: #D8D8D8;
 }
+
+#body_contactme p {
+    position: relative;
+    left: 191px;
+}
+
+#body_contactme h3 {
+    font-size: 40px;
+}
+
+#phonenumber, #email {
+    position: relative;
+    left: 191px;
+}
+
+#socials {
+    position: relative;
+    left: 1000px;
+    bottom: 330px;
+}
+
+#socials_icon {
+    position: relative;
+    left: 980px;
+    bottom: 360px;
+}
+
+
